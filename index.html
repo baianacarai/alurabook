@@ -13,19 +13,44 @@
 <body>
     <header class="cabeçalho">
         <div class="container">
-            <input type="checkbox" id="menu" class="container_botao"
+            <input type="checkbox" id="menu" class="container__botao">
             <label for="menu">
-            <span class="cabeçalho__menu-hamburguer"></span>  
+            <span class="cabeçalho__menu-hamburguer container__imagem"></span>  
         </label>
         <ul class="lista-menu">
-            
+            <li class="lista-menu_titulo">Categorias</li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-item__link">Programação</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-item__link">Front-end</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-item__link">Infraestrutura</a>
+            </li>
+            <li class="lista-menu_item">
+                <a  href="#" class="lista-item__link">Bunisess</a>
+            </li>
+            <li class="#" class="lista-menu__item">
+                <a href="#" class="lista-item__link">Design & UX</a>
+            </li>
+
         </ul>
-        </div>
-        <span class="cabeçalho__menu-hamburguer"></span>
-        <img src="img/Logo.png" alt="Logo da AluraBooks">
-        <a href="#"><img src="img/Favoritos.png" alt="Meus Favoritos"></a>
-        <a href="#"><img src="img/Sacola.png" alt="Minhas compras"></a>
-        <a href="#"><img src="img/Student stress-pana.png" alt="Meu perfil"></a>
-    </header>
-</body>
+                <img src="img/Logo.png" alt="Logo da AluraBooks" class="container__imagem">
+            </div>
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.png" alt="Meus Favoritos"></a>
+                <a href="#"><img src="img/Sacola.png" alt="Minhas compras"></a>
+                <a href="#"><img src="img/Student stress-pana.png" alt="Meu perfil"></a>
+            </div>
+        </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sab por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+    </section>
+    </body>
 </html>
